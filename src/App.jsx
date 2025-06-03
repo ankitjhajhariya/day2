@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Button from './button'
+import Button from './compnent/button'
 import './App.css'
 import Nav from './Nav'
-import Hero from './hero'
+import Hero from './compnent/hero'
 import Aboutus from './aboutus'
 
 function App() {
