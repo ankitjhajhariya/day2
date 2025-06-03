@@ -1,0 +1,29 @@
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navi {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  color: rgb(97, 94, 94);
+  width: 80%;
+}
+
+.navi img {
+  height: 2rem;
+}
+
+.aboutussection{
+  background-color: rgb(239, 234, 228);
+  width: 100%;
+}

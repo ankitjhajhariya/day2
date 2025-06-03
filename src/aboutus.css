@@ -1,0 +1,43 @@
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+
+}
+
+.aboutimg img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.aboutdis {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.aboutdis h3 {
+    color: rgb(83, 82, 82);
+}
+
+.aboutdis h1 {
+    font-weight: 900;
+}
+
+.aboutdis p {
+    width: 80%;
+    line-height: 25px;
+
+}
+
+.aboutdis a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    padding-top: 2rem;
+}
