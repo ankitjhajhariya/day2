@@ -1,0 +1,58 @@
+.ourservices_cont {
+    text-align: center;
+    padding: 2rem;
+    width: 80%;
+
+
+
+    .ourservices_cards {
+
+        .ourservices_card {
+            width: 555px;
+            // background-color: pink;
+            margin-bottom: 2rem;
+            border-radius: 1rem;
+
+            h1 {
+                font-size: 2.5rem;
+                color: #3a63f1;
+                margin-bottom: 1rem;
+                margin-top:  1rem;
+            }
+            h3{
+                letter-spacing: 1px;
+            }
+
+            p {
+                color: gray;
+                padding: 2rem;
+                padding-top: 0;
+                letter-spacing: 1px;
+            }
+
+        }
+
+        .card_one {
+            background-color: rgb(254, 244, 246);
+        }
+
+        .card_two {
+            background-color: rgb(247, 255, 235);
+        }
+
+        .card_three {
+            background-color: rgb(252, 252, 234);
+        }
+
+        .card_four {
+            background-color: rgb(238, 251, 255);
+        }
+
+        .ourservices_cades_one {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+}

@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import Button from './compnent/button'
-import './App.css'
+import './App.scss'
 import Nav from './compnent/Nav'
 import Hero from './compnent/hero'
 import Aboutus from './compnent/aboutus'
-import '@fontsource/poppins'; 
+import '@fontsource/poppins';
+import Experience from './compnent/Experience'
+import OurServices from './compnent/OurServices'
 
 
 function App() {
@@ -15,13 +17,20 @@ function App() {
         <Nav />
       </header>
       <section className='hero'>
-        <Hero></Hero>
+        <Hero />
       </section>
       <section className='aboutussection'>
-        <Aboutus/>
+        <Aboutus />
       </section>
+      <section className='experiencesection'>
+        <Experience />
+      </section>
+      <section className='experiencesectionSection'>
+        <OurServices />
+      </section>
+      
     </>
   )
 }
 
-export default App
+export default App;

@@ -3,7 +3,7 @@ section {
   margin-right: auto;
 }
 
-header{
+header {
   margin-left: auto;
   margin-right: auto;
   position: fixed;
@@ -16,25 +16,28 @@ header{
 .navi {
   height: 3rem;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   align-items: center;
   font-weight: bolder;
   color: rgb(97, 94, 94);
   padding: 5px;
+
+  img {
+    height: 2rem;
+    margin-left: 9rem;
+  }
+
+  button {
+    color: white;
+    margin-right: 9rem;
+  }
 }
 
-.navi img {
-  height: 2rem;
-  margin-left: 9rem;
-}
-
-.aboutussection{
+.aboutussection {
   background-color: rgb(239, 234, 228);
   width: 100%;
 }
 
-.navi button{
-  color: white;
-  margin-right: 9rem;
+.experiencesection{
+  background-color: beige;
 }
