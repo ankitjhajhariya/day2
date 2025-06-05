@@ -1,12 +1,16 @@
 import { useState } from 'react'
-import Button from './compnent/button'
+import Button from './component/button'
 import './App.scss'
-import Nav from './compnent/Nav'
-import Hero from './compnent/hero'
-import Aboutus from './compnent/aboutus'
+import Nav from './component/Nav'
+import Hero from './component/hero'
+import Aboutus from './component/aboutus'
 import '@fontsource/poppins';
-import Experience from './compnent/Experience'
-import OurServices from './compnent/OurServices'
+import Experience from './component/Experience'
+import OurServices from './component/OurServices'
+import ChoWorMiss from './component/ChoWorMiss'
+
+
+
 
 
 function App() {
@@ -28,7 +32,10 @@ function App() {
       <section className='experiencesectionSection'>
         <OurServices />
       </section>
-      
+      <section className='worksectionSection'>
+        <ChoWorMiss />
+      </section>
+
     </>
   )
 }

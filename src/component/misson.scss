@@ -1,0 +1,26 @@
+.misson-cont {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    .work-content {
+        width: 60rem;
+    }
+
+    .misson-img {
+        img {
+            width: 450px;
+        }
+    }
+
+    p {
+        color: grey;
+        width: 40rem;
+    }
+
+    h2 {
+        width: 35rem;
+    }
+
+}
