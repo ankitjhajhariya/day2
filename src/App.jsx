@@ -1,43 +1,32 @@
-import { useState } from 'react'
-import Button from './component/button'
 import './App.scss'
-import Nav from './component/Nav'
-import Hero from './component/hero'
-import Aboutus from './component/aboutus'
 import '@fontsource/poppins';
-import Experience from './component/Experience'
-import OurServices from './component/OurServices'
-import ChoWorMiss from './component/ChoWorMiss'
-
-
-
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from './component/Layout';
+import AboutUsM from './component/aboutusm';
+import Nav from './component/Nav'
 
 
 function App() {
 
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <><Nav /><Layout /></>
+    },
+    {
+      path: "/aboutus",
+      element: <><Nav /><AboutUsM /></>
+    },
+  ])
   return (
     <>
-      <header>
-        <Nav />
-      </header>
-      <section className='hero'>
-        <Hero />
-      </section>
-      <section className='aboutussection'>
-        <Aboutus />
-      </section>
-      <section className='experiencesection'>
-        <Experience />
-      </section>
-      <section className='experiencesectionSection'>
-        <OurServices />
-      </section>
-      <section className='worksectionSection'>
-        <ChoWorMiss />
-      </section>
-
+      <RouterProvider router={router} />
     </>
   )
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
 export default App;

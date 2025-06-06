@@ -13,7 +13,7 @@ function Hero() {
                             scale their business</h1>
                         <p>We have built enormous solutions for startups and
                             enterprise across the world</p>
-                        <Button text="See our work" icon={<i class="fa-solid fa-arrow-up-right-from-square"></i>}></Button>
+                        <Button text="See our work" icon={<i class="fa-solid fa-arrow-up-right-from-square"></i>} bg='#4169E1' col='white'></Button>
                     </div>
                     <div>
                         <img src="https://www.w3villa.com/production/assets/landing_page/banner_2_digital-12d2a65725612b69be142e6653792f0d7981dc0fcd1d35cc4ceabc15278efbca.webp" alt="hero img" />

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './button';
+import './nav.scss'
 function Nav() {
     return (
         <header className='navi'>
@@ -11,7 +12,7 @@ function Nav() {
             <span>Company</span>
             <span>Career</span>
             <span>Blog</span>
-            <span><Button text="ENQUIRY" /></span>
+            <span><Button text="ENQUIRY" bg='#4169E1' col='white' /></span>
         </header>
     );
 }

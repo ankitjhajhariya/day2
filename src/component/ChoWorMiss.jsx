@@ -23,10 +23,16 @@ function ChoWorMiss() {
     return (
         <>
             <div className="btn-group">
-                <button onClick={() => setActiveComponent('one')}>Why choose us</button>
-                <button onClick={() => setActiveComponent('two')}>How we work</button>
-                <button onClick={() => setActiveComponent('three')}>Our mission</button>
-            </div>
+                <button onClick={() => setActiveComponent('one')}
+                    style={{ backgroundColor: activeComponent === 'one' ? '#F2F2F2' : '#4169E1', color: activeComponent === 'one' ? '#4169E1' : 'white' }}
+                >Why choose us</button>
+                <button onClick={() => setActiveComponent('two')}
+                    style={{ backgroundColor: activeComponent === 'two' ? '#F2F2F2' : '#4169E1', color: activeComponent === 'two' ? '#4169E1' : 'white' }}
+                >How we work</button>
+                <button onClick={() => setActiveComponent('three')}
+                    style={{ backgroundColor: activeComponent === 'three' ? '#F2F2F2' : '#4169E1', color: activeComponent === 'three' ? '#4169E1' : 'white' }}
+                >Our mission</button>
+            </div >
 
             <div style={{ marginTop: '20px' }}>
                 {renderComponent()}

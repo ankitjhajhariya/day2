@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutus.scss'
+import { Link } from 'react-router-dom';
 function Aboutus() {
     return (
         <>
@@ -13,7 +14,7 @@ function Aboutus() {
                     <p>We are CMMi Level 3 appraised software development company that offers state-of-the-art technological solutions to startups, SMEs, and enterprises across the globe. We bring a design-led approach to integrate digital transformation by incorporating innovative solutions to improve customer experience. Our 100+ dedicated engineers are well-trained to deploy on any complexity development project with unparalleled results.
 
                         We do believe in structured and automated support systems by implementing agile and scrum methodology in our day-to-day operations that keep our clients accurate in any delivery.</p>
-                    <a href="/">View More <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <Link to="/aboutus">View More <i class="fa-solid fa-arrow-up-right-from-square"></i></Link>
                 </div>
             </div>
         </>

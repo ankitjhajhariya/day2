@@ -1,0 +1,57 @@
+.work-cont {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+
+    .work-content {
+        width: 65rem;
+
+        .work-detail {
+            display: flex;
+            padding: 2rem 0;
+
+            .work-detail-card {
+                display: flex;
+                justify-content: space-between;
+                margin-left: 1rem;
+                width: 21.6rem;
+                margin-bottom: 2rem;
+                height: 10rem;
+
+                .work-detail-card-img {
+                    width: 6.5rem;
+                    background-image: url('./work-bg.png');
+                    background-size: cover;
+                    background-position: center;
+                    height: 6.5rem;
+
+                    img {
+                        margin: 1.6rem;
+                        color: white;
+                        width: 3rem;
+                        // border-radius: 2rem;
+
+                    }
+                }
+
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+            color: gray;
+        }
+
+        h3 {
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            width: 25rem;
+        }
+    }
+}

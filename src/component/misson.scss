@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    padding-bottom: 3rem;
 
     .work-content {
         width: 60rem;
@@ -11,6 +12,7 @@
     .misson-img {
         img {
             width: 450px;
+            margin-top: 2rem;
         }
     }
 

@@ -1,26 +1,25 @@
-.work-cont {
+.choose-cont {
     width: 80%;
     display: flex;
     justify-content: space-between;
-
     margin: auto;
 
-    .work-content {
+    .choose-content {
         width: 60rem;
 
-        .work-detail {
+        .choose-detail {
             width: 50rem;
             display: flex;
             padding: 2rem 0;
 
-            .work-detail-on {
-                .work-detail-card {
+            .choose-detail-on {
+                .choose-detail-card {
                     display: flex;
                     justify-content: space-between;
                     margin-bottom: 2rem;
                     height: 10rem;
 
-                    .work-detail-card-img {
+                    .choose-detail-card-img {
                         width: 5rem;
                         background-image: url('./work-bg.png');
                         background-size: cover;
@@ -30,12 +29,7 @@
                         img {
                             margin: 1rem;
                             color: white;
-
-
-                            // background-color: rgb(37, 146, 255);
-
                             width: 3rem;
-                            // width: 3rem;
                             border-radius: 2rem;
 
                         }
@@ -62,7 +56,7 @@
         }
     }
 
-    .work-img {
+    .choose-img {
         width: 23rem;
         text-align: center;
         margin-top: 3rem;
@@ -72,7 +66,7 @@
             object-fit: cover;
         }
 
-        .work-img-in {
+        .choose-img-in {
             display: flex;
             justify-content: space-between;
 
