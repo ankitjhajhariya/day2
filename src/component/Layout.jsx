@@ -1,6 +1,6 @@
 import './Layout.scss';
 import Hero from './hero';
-import Aboutus from './Aboutus';
+import Aboutus from './aboutus';
 import Experience from './Experience';
 import OurServices from './OurServices';
 import ChoWorMiss from './ChoWorMiss';
