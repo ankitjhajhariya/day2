@@ -1,5 +1,5 @@
 import './Layout.scss';
-import Hero from './Hero';
+import Hero from './hero';
 import Aboutus from './Aboutus';
 import Experience from './Experience';
 import OurServices from './OurServices';
