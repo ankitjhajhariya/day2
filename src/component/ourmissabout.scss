@@ -1,0 +1,83 @@
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 4rem 0;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+    .mission-text {
+        max-width: 50%;
+        top: 1rem;
+
+        h4 {
+            color: #4b55e1;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .social-icons {
+            margin-top: 1rem;
+
+            a {
+                margin-right: 1rem;
+                font-size: 1.5rem;
+                color: #002244;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #4b55e1;
+                }
+            }
+        }
+    }
+
+    .ceo-card {
+        position: relative;
+        max-width: 360px;
+        text-align: center;
+
+        img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .ceo-info {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0.8rem 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+            h3 {
+                margin: 0;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+
+            p {
+                margin: 0;
+                font-size: 1.1rem;
+                color: #4b55e1;
+                font-weight: bold;
+            }
+        }
+    }
+}

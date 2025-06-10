@@ -1,5 +1,9 @@
 import React from 'react';
 import './aboutusm.scss';
+import MissionSection from './ourmissabout';
+import TeamSection from './TeamSection';
+import WhyChooseUs from './ChooseAboutus';
+import CompanyCulture from './CompanyCulture';
 
 function AboutUsM() {
     return (
@@ -45,6 +49,10 @@ function AboutUsM() {
                     </p>
                 </div>
             </div>
+            <MissionSection />
+            <TeamSection />
+            <WhyChooseUs />
+            <CompanyCulture />
         </>
     );
 }
